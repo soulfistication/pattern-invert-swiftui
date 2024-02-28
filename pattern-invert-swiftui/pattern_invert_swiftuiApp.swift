@@ -11,7 +11,7 @@ import SwiftUI
 struct pattern_invert_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(startsBlack: true)
         }
     }
 }
