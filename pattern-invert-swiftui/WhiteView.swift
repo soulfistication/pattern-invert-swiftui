@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WhiteView.swift
 //  pattern-invert-swiftui
 //
 //  Created by Iván Almada on 2/27/24.
@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WhiteView: View {
     var body: some View {
-        CheckeredBoardView()
+        Color.white
+            .frame(width: 30, height: 30)
     }
 }
 
 #Preview {
-    ContentView()
+    WhiteView()
 }
